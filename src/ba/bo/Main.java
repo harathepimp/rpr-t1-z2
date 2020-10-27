@@ -13,7 +13,7 @@ public class Main {
         //suma = sumaCifara(n);
 
         for(int i=1; i<n; i++){
-            if(djeljiv(i, sumaCifara(i)) == true) System.out.println(i + " ");
+            if(djeljiv(i, sumaCifara(i))) System.out.println(i + " ");
         }
         //System.out.println("Suma cifara: " + suma);
 
